@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Utiliza la disposición flex-box para crear una galería de 6 imágenes con los siguientes parámetros
+
+Las imágenes deben tener 300 píxeles de ancho
+
+Deben reagruparse (wrap) cuando el ancho del viewport cambia*/
+
+html{
+    display: flexbox;
+}
+
+img{
+    width: 300px;
+}
